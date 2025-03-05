@@ -10,7 +10,7 @@
     "dev:backend": "nodemon index.js",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "postinstall": "cd ./Frontend && npm install && npm run build",
-    "build" : "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build" : "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
   },
   "author": "",
   "license": "ISC",
